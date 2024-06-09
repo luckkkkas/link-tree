@@ -3,8 +3,9 @@ main{
     max-height: 100vh;
     width: 100vw;
     height: 100vh;
-    background-image: url('../image/link-tree-bcg.webp');
+    background-image: url('https://images.pexels.com/photos/5871924/pexels-photo-5871924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
@@ -18,13 +19,13 @@ li{
     list-style: none;
     padding: .5rem;
     margin: .7rem;
-    color: whitesmoke;
-    border: 2px solid gold;
+    color: black;
+    border: 2px solid black;
     width: 50vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(80px);
 }
 
 img{
@@ -36,7 +37,7 @@ img{
 
 h3{
     text-transform: capitalize;
-    color:green;
+    color: black;
 }
 
 a{
